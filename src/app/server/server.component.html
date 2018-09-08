@@ -1,0 +1,9 @@
+<h3>Server {{serverId}}</h3>
+<p>Status:
+  <span
+    [ngStyle]="{color: getColor()}"
+    [ngClass] ="{'alert alert-success'   : serverStatus === 'online'}"
+>{{ getServerStatus()}}</span></p>
+
+
+
